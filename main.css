@@ -1,0 +1,72 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+#soup-image{
+  background-image: url(soup.jpg);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.pharagraph{
+  font-family: roboto;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+.info-image{
+  display: flex;
+  justify-content: center;
+  margin-left: 280px;  
+  padding-top: 40px;
+  border-bottom: 1px solid gray;
+  width: 70%;
+}
+
+#ingredients{
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+}
+
+.ingredients-list{
+  padding-top: 25px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+.sub-title{
+  padding-top: 40px;
+  padding-left: 350px;
+}
+
+.directions-list{
+  line-height: 1.5;
+  width: 800px;
+  font-family: roboto;
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
